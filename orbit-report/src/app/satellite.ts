@@ -10,7 +10,7 @@ export class Satellite {
         this.type = type;
         this.launchDate = launchDate;
         this.orbitType = orbitType;
-        this.operational = null;
+        this.operational = operational;
     }
 
 }
