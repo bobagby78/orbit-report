@@ -8,7 +8,7 @@
       <th>Launch Date</th>
    </tr>
    
-   <tr *ngFor= "satellite of satellites">
+   <tr *ngFor= "let satellite of satellites">
         <td>{{satellite.name}}</td>
         <td>{{satellite.type}}</td>
         <td>{{satellite.operational}}</td>

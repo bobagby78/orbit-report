@@ -1,4 +1,4 @@
-export class Satellite { //add implements OnOnit???
+export class Satellite {  
     name: string;
     orbitType: string;
     type: string;
@@ -10,7 +10,7 @@ export class Satellite { //add implements OnOnit???
         this.type = type;
         this.launchDate = launchDate;
         this.orbitType = orbitType;
-        this.operational = null
+        this.operational = null;
     }
 
 }
