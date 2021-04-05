@@ -10,7 +10,7 @@
    
    <tr *ngFor= "let satellite of satellites">
         <td>{{satellite.name}}</td>
-        <td>{{satellite.type}}</td>
+        <td [class.warning] = "satellite.shouldShowWarning()">{{satellite.type}}</td> <!-- TODO: get warning to show up here if 'space debris'-->
         <td>{{satellite.operational}}</td>
         <td>{{satellite.orbitType}}</td>
         <td>{{satellite.launchDate}}</td>

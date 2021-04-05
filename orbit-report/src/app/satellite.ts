@@ -12,8 +12,8 @@ export class Satellite {
         this.orbitType = orbitType;
         this.operational = operational;
     }
-    shouldShowWarning(): boolean {
-        if (this.type === 'Space Debris'){
+    shouldShowWarning(): boolean {  //this should change the <td> to apply the css class .warning, but how?
+        if (this.type.toLowerCase() === 'space debris'){
             return true
         }else{ 
             return false
