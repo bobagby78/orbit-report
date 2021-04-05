@@ -13,7 +13,7 @@ export class Satellite {
         this.operational = operational;
     }
     shouldShowWarning(): boolean {
-        if (this.satellite.type === 'Space Debris'){
+        if (this.type === 'Space Debris'){
             return true
         }
     }
